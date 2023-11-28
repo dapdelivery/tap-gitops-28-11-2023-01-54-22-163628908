@@ -1,0 +1,24 @@
+tap_install:
+    sensitive_values:
+        shared:
+            ingress_domain: ENC[AES256_GCM,data:xunJEYQHKZmBzw1366yjL38g288+suHoVyR+YJayyRLlck/gSbXoRYWqsbk=,iv:iL07EHN8mgRQmmc7Ml+8N6MnnEH+o8jSX8ukEO6JxuQ=,tag:c1d8oDu7wojU+G9f1ZUcyg==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age140kfw9jqh7d63svrgf8rpjaf8mteg507va4s98pnjtl975qe6stqfpaxvv
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBleU4rY3N1dTlnYVpDVjli
+            SlFsT0xFQmhSazBSSUJaSklIZDdTMnFzUVVNClhBU21tQlBXM0J2SXhlM2tpZVRC
+            M1FXU0psblQxZy9ESE1lZmhwMXdTelkKLS0tIFR4V2tJQXA2MHI1dmFjNytZTXIx
+            TEp1T3Uwa2ZTU1ZxcFBETFBrbzRvdU0KpPQ3OYy/xIqo/27RGV4RuVcZ+pmWq98a
+            HchFii4hFxDBKJrFzIgDi+J99gGk8fV1YIEh04B8E5/IAlqxNVNAKQ==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2023-11-28T02:56:28Z"
+    mac: ENC[AES256_GCM,data:0JxZtnb7N31nkm14RSYWVSGStc6+ezM6fy3T8H8FmAhT3T8mEdgrTbtQj9csUPkk9XfRNrZ5idqRy93Hhp35gmV8g2KzWlHuwo0oSZWVULY7aRxvsNAPjU0zNsRzmM315b7geFzJT2Y1y+v6SgDtEVK3N3DERkqL7lm2ijVAqr4=,iv:1bGZv00LSb3Vf1bsPQxc7mLJ4BXk6Ovpii8AtPP2sjQ=,tag:X9ry+VcQPcDVM0QMJgu9sw==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.3
